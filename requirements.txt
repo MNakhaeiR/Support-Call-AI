@@ -1,0 +1,62 @@
+# torch torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+# Audio Processing
+pyaudio
+librosa==0.10.1
+soundfile==0.12.1
+webrtcvad==2.0.10
+noisereduce==3.0.0
+
+# Speech Recognition
+openai-whisper==20231117
+faster-whisper==0.9.0
+
+# LLM and NLP
+transformers==4.35.2
+# torch==2.1.1
+# torchaudio==2.1.1
+accelerate==0.24.1
+bitsandbytes==0.41.2
+llama-cpp-python==0.2.11
+sentence-transformers==2.2.2
+huggingface-hub
+
+# Sentiment and Emotion Analysis
+vaderSentiment==3.3.2
+textblob==0.17.1
+spacy==3.7.2
+
+# GUI
+PyQt6
+PyQt6-tools
+pyqtgraph==0.13.3
+matplotlib==3.8.2
+
+# Database
+# sqlite3
+sqlalchemy==2.0.23
+
+# Web API
+fastapi==0.104.1
+uvicorn==0.24.0
+websockets==12.0
+
+# Utilities
+numpy==1.24.3
+pandas==2.1.4
+scipy==1.11.4
+pydub==0.25.1
+python-multipart==0.0.6
+python-dotenv==1.0.0
+requests==2.31.0
+aiofiles==23.2.0
+pyyaml==6.0.1
+
+# Logging and Monitoring
+loguru==0.7.2
+psutil==5.9.6
+
+# Development
+pytest==7.4.3
+black==23.11.0
+flake8==6.1.0

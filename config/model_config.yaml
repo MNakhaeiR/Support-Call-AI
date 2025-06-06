@@ -1,0 +1,22 @@
+model_parameters:
+  learning_rate: 0.001
+  batch_size: 32
+  num_epochs: 50
+  dropout_rate: 0.5
+
+model_architecture:
+  type: "transformer"
+  layers: 12
+  hidden_units: 768
+  attention_heads: 12
+
+data_parameters:
+  input_length: 128
+  output_length: 64
+  num_classes: 10
+
+training:
+  optimizer: "adam"
+  loss_function: "categorical_crossentropy"
+  metrics:
+    - "accuracy"
