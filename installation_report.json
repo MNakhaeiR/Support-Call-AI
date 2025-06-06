@@ -1,0 +1,98 @@
+{
+  "installation": {
+    "success": true,
+    "timestamp": "2025-06-06 19:52:25",
+    "duration_seconds": 1239.09,
+    "duration_minutes": 20.65,
+    "installed_components": [
+      "Whisper models",
+      "LLaMA model",
+      "Transformer models"
+    ]
+  },
+  "models": {
+    "whisper": {
+      "available_models": [
+        "tiny",
+        "base",
+        "small",
+        "medium",
+        "large"
+      ],
+      "current_model": "medium",
+      "installed": true,
+      "installation_path": "D:\\Projects\\Competition\\AI\\Support-Call-AI\\models\\whisper",
+      "total_size_mb": 2676,
+      "detailed_status": {
+        "installed_models": [
+          "tiny",
+          "base",
+          "small",
+          "medium",
+          "large"
+        ],
+        "missing_models": [],
+        "corrupted_models": []
+      }
+    },
+    "llama": {
+      "available_models": [
+        "llama-2-7b-chat",
+        "llama-2-13b-chat"
+      ],
+      "current_model": "llama-2-7b-chat",
+      "installed": true,
+      "installation_path": "D:\\Projects\\Competition\\AI\\Support-Call-AI\\models\\llama",
+      "total_size_mb": 11000,
+      "detailed_status": {
+        "installed_models": [
+          "llama-2-7b-chat"
+        ],
+        "missing_models": [
+          "llama-2-13b-chat"
+        ],
+        "corrupted_models": []
+      }
+    },
+    "transformers": {
+      "available_models": [
+        "sentiment",
+        "emotion",
+        "multilingual",
+        "persian_sentiment"
+      ],
+      "installed": true,
+      "installation_path": "D:\\Projects\\Competition\\AI\\Support-Call-AI\\models\\transformers",
+      "total_size_mb": 1550,
+      "detailed_status": {
+        "installed_models": [
+          "sentiment",
+          "emotion",
+          "multilingual"
+        ],
+        "missing_models": [
+          "persian_sentiment"
+        ],
+        "corrupted_models": []
+      }
+    }
+  },
+  "disk_usage": {
+    "total_size_mb": 4769,
+    "size_breakdown": {
+      "whisper-medium": "769 MB",
+      "llama-llama-2-7b-chat": "4000 MB"
+    }
+  },
+  "system": {
+    "platform": "Windows",
+    "platform_version": "10.0.26100",
+    "architecture": "AMD64",
+    "python_version": "3.10.11",
+    "python_executable": "D:\\Projects\\Competition\\AI\\Support-Call-AI\\.venv\\Scripts\\python.exe"
+  },
+  "versions": {
+    "installer_version": "1.0.0",
+    "project_version": "1.0.0"
+  }
+}
