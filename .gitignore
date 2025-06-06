@@ -2,5 +2,11 @@
 
 __pycache__
 
-/__init__.py
-
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.db
+*.sqlite3
+*.log
+*.csv
